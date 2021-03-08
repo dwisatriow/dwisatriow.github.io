@@ -240,7 +240,11 @@
           <p>Have a question or want to work together?</p>
         </div>
 
-        <form id="contact-form">
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/mknpdgjy"
+          method="POST"
+        >
           <label for="name">Name</label>
           <input
             type="text"
@@ -254,7 +258,7 @@
           <input
             type="email"
             id="email"
-            name="email"
+            name="_replyto"
             placeholder="Email"
             required
           />
@@ -262,9 +266,11 @@
           <label for="message">Any comments or suggestions?</label>
           <textarea
             id="message"
+            name="message"
             row="5"
             col="100"
             placeholder="Your message"
+            required
           ></textarea>
 
           <input type="submit" id="submit" value="Send" />
