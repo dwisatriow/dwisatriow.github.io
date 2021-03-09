@@ -17,11 +17,22 @@
 
     <!-- Stylesheet -->
     <link href="./styles/style.css" type="text/css" rel="stylesheet" />
+
+    <!-- Script -->
+    <script src="./main.js"></script>
   </head>
   <body>
     <div id="header-container">
       <header id="header">
         <h1><a id="home-link" href="#welcome-section">DWISATRIOW</a></h1>
+        <button id="close-button" class="hidden">
+          <span
+            id="close-icon"
+            class="iconify"
+            data-inline="false"
+            data-icon="clarity:window-close-line"
+          ></span>
+        </button>
         <button id="menu-button">
           <span
             id="menu-icon"
@@ -30,7 +41,7 @@
             data-icon="majesticons:menu-alt-line"
           ></span>
         </button>
-        <nav id="navbar">
+        <nav id="navbar" class="navbarClosed">
           <ul>
             <li><a class="nav-link" href="#about">About</a></li>
             <li><a class="nav-link" href="#projects">Portofolio</a></li>

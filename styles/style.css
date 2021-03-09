@@ -17,12 +17,15 @@ html {
   position: sticky;
   height: 60px;
   top: -10px;
-  z-index: 2;
-  background: #ecf2f6; }
+  background: #ecf2f6;
+  z-index: 4; }
   @media (min-width: 768px) {
     #header-container {
       height: 80px;
       top: -30px; } }
+
+.floatingNav {
+  box-shadow: 0px 6px 8px -8px rgba(0, 0, 0, 0.25); }
 
 #header {
   display: flex;
@@ -34,11 +37,12 @@ html {
   width: 100%;
   max-width: 960px;
   height: 50px;
-  padding: 0 16px;
-  background: #ecf2f6; }
+  padding: 0 20px;
+  background: #ecf2f6;
+  z-index: 4; }
   @media (min-width: 768px) {
     #header {
-      padding: 0 22px; } }
+      padding: 0 24px; } }
   @media (min-width: 992px) {
     #header {
       padding: 0 28px; } }
@@ -49,7 +53,9 @@ html {
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 0.05em;
-  color: #2c4353; }
+  color: #2c4353;
+  position: relative;
+  z-index: 5; }
   @media (min-width: 992px) {
     #home-link {
       font-size: 26px; } }
@@ -63,9 +69,12 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  right: 4px;
   border: none;
-  background: #ecf2f6;
-  transform: scale(1.6, 1); }
+  background: none;
+  transform: scale(1.6, 1);
+  z-index: 5; }
   @media (min-width: 575px) {
     #menu-button {
       display: none; } }
@@ -75,11 +84,81 @@ html {
   font-size: 18px;
   cursor: pointer; }
 
-#navbar {
-  display: none; }
+#close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  z-index: 5; }
   @media (min-width: 575px) {
-    #navbar {
-      display: block; } }
+    #close-button {
+      display: none; } }
+
+#close-icon {
+  color: #2c4353;
+  font-size: 26px;
+  cursor: pointer; }
+
+@media (min-width: 575px) {
+  #navbar {
+    display: block; } }
+
+#navbar.navbarClosed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background: #dce7ef;
+  pointer-events: none;
+  transition: all 0.5s ease; }
+
+#navbar.navbarOpened {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 3;
+  background: #dce7ef;
+  pointer-events: all;
+  transition: all 0.5s ease; }
+
+.navbarClosed::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: all 0.5s ease;
+  background: #ecf2f6; }
+
+.navbarOpened::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  z-index: 2;
+  box-shadow: 0px 6px 8px -8px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease;
+  background: #ecf2f6; }
+
+.hidden {
+  display: none !important; }
 
 #navbar ul {
   display: flex;
@@ -109,15 +188,20 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 520px;
-  background: #ecf2f6; }
+  height: 100vh;
+  background: #ecf2f6;
+  box-shadow: 0px 6px 8px -8px rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: -60px;
+  margin-bottom: -60px;
+  z-index: 1; }
   @media (min-width: 575px) {
     #welcome-section {
-      flex-direction: row;
-      height: 480px; } }
-  @media (min-width: 992px) {
+      flex-direction: row; } }
+  @media (min-width: 768px) {
     #welcome-section {
-      height: 520px; } }
+      top: -80px;
+      margin-bottom: -80px; } }
 
 #welcome-section img {
   width: 120px;
@@ -192,7 +276,9 @@ html {
   align-items: center;
   justify-content: center;
   height: 260px;
-  background: #dce7ef; }
+  background: #dce7ef;
+  position: relative;
+  z-index: 0; }
   @media (min-width: 575px) {
     #about {
       height: 280px; } }
@@ -245,6 +331,9 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0px -6px 8px -8px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
   background: #ecf2f6; }
 
 .projects-intro {
@@ -606,6 +695,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
   background: #2c4353; }
 
 .contact-me {
