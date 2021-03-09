@@ -1,4 +1,5 @@
 window.onload = function () {
+  // navbar shadow on scroll
   window.onscroll = function () {
     windowOnScroll();
   };
@@ -14,6 +15,7 @@ window.onload = function () {
     }
   }
 
+  // dropdown menu
   let homeLink = document.querySelector("#home-link");
   let menuButton = document.querySelector("#menu-button");
   let closeButton = document.querySelector("#close-button");
@@ -22,29 +24,33 @@ window.onload = function () {
   homeLink.onclick = function () {
     homeOnClick();
   };
-
   menuButton.onclick = function () {
     menuOnClick();
   };
-
   closeButton.onclick = function () {
     closeOnClick();
   };
 
   function homeOnClick() {
+    // prevent on desktop version
+    let windowWidth =
+      window.innerWidth ||
+      document.documentElement.clientWidth ||
+      document.body.clientWidth;
+
+    if (windowWidth >= 576) return;
+
     navbar.classList.add("navbarClosed");
     navbar.classList.remove("navbarOpened");
     closeButton.classList.add("hidden");
     menuButton.classList.remove("hidden");
   }
-
   function menuOnClick() {
     navbar.classList.add("navbarOpened");
     navbar.classList.remove("navbarClosed");
     menuButton.classList.add("hidden");
     closeButton.classList.remove("hidden");
   }
-
   function closeOnClick() {
     navbar.classList.add("navbarClosed");
     navbar.classList.remove("navbarOpened");
@@ -52,6 +58,7 @@ window.onload = function () {
     menuButton.classList.remove("hidden");
   }
 
+  // hide dropdown menu on link clicked
   let navlinks = document.querySelectorAll(".nav-link");
 
   navlinks.forEach(function (navlink) {
@@ -61,12 +68,32 @@ window.onload = function () {
   });
 
   function navlinkOnClick() {
+    // prevent on desktop version
+    let windowWidth =
+      window.innerWidth ||
+      document.documentElement.clientWidth ||
+      document.body.clientWidth;
+
+    if (windowWidth >= 576) return;
+
     navbar.classList.add("navbarClosed");
     navbar.classList.remove("navbarOpened");
     closeButton.classList.add("hidden");
     menuButton.classList.remove("hidden");
   }
 
+  // hide dropdown on desktop version
+  // onload
+  let windowWidth =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
+  if (windowWidth >= 576) {
+    navbar.classList.remove("navbarClosed");
+    navbar.classList.remove("navbarOpened");
+  }
+
+  // onresize
   window.onresize = function () {
     windowOnResize();
   };
