@@ -331,18 +331,18 @@ html {
   z-index: 1;
   background: #ecf2f6; }
 
-.projects-intro {
+#projects-intro {
   display: flex;
   flex-direction: column;
   margin-top: 70px; }
   @media (min-width: 575px) {
-    .projects-intro {
+    #projects-intro {
       margin-top: 90px; } }
   @media (min-width: 992px) {
-    .projects-intro {
+    #projects-intro {
       margin-top: 110px; } }
 
-.projects-intro h2 {
+#projects-intro h2 {
   font-family: "Amatic SC", serif;
   font-style: normal;
   font-weight: bold;
@@ -351,13 +351,13 @@ html {
   text-align: center;
   color: #2c4353; }
   @media (min-width: 575px) {
-    .projects-intro h2 {
+    #projects-intro h2 {
       font-size: 36px; } }
   @media (min-width: 992px) {
-    .projects-intro h2 {
+    #projects-intro h2 {
       font-size: 40px; } }
 
-.projects-intro p {
+#projects-intro p {
   padding: 0 24px;
   font-family: Dosis, sans-serif;
   font-style: normal;
@@ -366,10 +366,10 @@ html {
   text-align: center;
   color: #2c4353; }
   @media (min-width: 575px) {
-    .projects-intro p {
+    #projects-intro p {
       padding: 0; } }
   @media (min-width: 992px) {
-    .projects-intro p {
+    #projects-intro p {
       font-size: 20px; } }
 
 .project-tile {
@@ -908,6 +908,9 @@ input[type="submit"] {
       width: 196px;
       margin-top: 14px;
       margin-bottom: 36px; } }
+
+#profile-link {
+  color: #ecf2f6; }
 
 #profile-link {
   color: #ecf2f6; }

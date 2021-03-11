@@ -416,7 +416,7 @@ html {
   background: $main-bg;
 }
 
-.projects-intro {
+#projects-intro {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
@@ -429,7 +429,7 @@ html {
   }
 }
 
-.projects-intro h2 {
+#projects-intro h2 {
   font-family: "Amatic SC", serif;
   font-style: normal;
   font-weight: bold;
@@ -447,7 +447,7 @@ html {
   }
 }
 
-.projects-intro p {
+#projects-intro p {
   padding: 0 24px;
 
   font-family: Dosis, sans-serif;
@@ -1067,6 +1067,10 @@ input[type="submit"] {
     margin-top: 14px;
     margin-bottom: 36px;
   }
+}
+
+#profile-link {
+  color: $main-bg;
 }
 
 #profile-link {
