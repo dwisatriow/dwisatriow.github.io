@@ -676,7 +676,7 @@ html {
   width: 27px;
   height: 27px;
   position: relative;
-  left: -2px;
+  margin: 0 -2px;
   color: #2c4353; }
   @media (min-width: 768px) {
     .css-icon {
@@ -686,6 +686,63 @@ html {
     .css-icon {
       width: 32px;
       height: 32px; } }
+
+.sass-icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  margin: 0 2px;
+  color: #2c4353; }
+  @media (min-width: 768px) {
+    .sass-icon {
+      width: 28px;
+      height: 28px; } }
+  @media (min-width: 992px) {
+    .sass-icon {
+      width: 30px;
+      height: 30px; } }
+
+.js-icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  color: #2c4353; }
+  @media (min-width: 768px) {
+    .js-icon {
+      width: 28px;
+      height: 28px; } }
+  @media (min-width: 992px) {
+    .js-icon {
+      width: 30px;
+      height: 30px; } }
+
+.jquery-icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  color: #2c4353; }
+  @media (min-width: 768px) {
+    .jquery-icon {
+      width: 24px;
+      height: 24px; } }
+  @media (min-width: 992px) {
+    .jquery-icon {
+      width: 26px;
+      height: 26px; } }
+
+.react-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  color: #2c4353; }
+  @media (min-width: 768px) {
+    .react-icon {
+      width: 26px;
+      height: 26px; } }
+  @media (min-width: 992px) {
+    .react-icon {
+      width: 28px;
+      height: 28px; } }
 
 .preview-and-tech-container + p {
   margin-top: 8px; }

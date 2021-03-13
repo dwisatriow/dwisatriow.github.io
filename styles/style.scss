@@ -821,7 +821,7 @@ html {
   width: 27px;
   height: 27px;
   position: relative;
-  left: -2px;
+  margin: 0 -2px;
 
   color: $main-text;
 
@@ -832,6 +832,75 @@ html {
   @media (min-width: $lg) {
     width: 32px;
     height: 32px;
+  }
+}
+
+.sass-icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  margin: 0 2px;
+
+  color: $main-text;
+
+  @media (min-width: $md) {
+    width: 28px;
+    height: 28px;
+  }
+  @media (min-width: $lg) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.js-icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+
+  color: $main-text;
+
+  @media (min-width: $md) {
+    width: 28px;
+    height: 28px;
+  }
+  @media (min-width: $lg) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.jquery-icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+
+  color: $main-text;
+
+  @media (min-width: $md) {
+    width: 24px;
+    height: 24px;
+  }
+  @media (min-width: $lg) {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+.react-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+
+  color: $main-text;
+
+  @media (min-width: $md) {
+    width: 26px;
+    height: 26px;
+  }
+  @media (min-width: $lg) {
+    width: 28px;
+    height: 28px;
   }
 }
 
