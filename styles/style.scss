@@ -485,76 +485,37 @@ html {
 }
 
 #skills-tiles .html-icon {
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
 
   @media (min-width: $lg) {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
   }
 }
 
 #skills-tiles .css-icon {
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
+  margin: 0 -2px;
 
   @media (min-width: $lg) {
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
   }
 }
 
 #skills-tiles .js-icon {
-  width: 24px;
-  height: 24px;
+  width: 19px;
+  height: 19px;
 
   @media (min-width: $lg) {
-    width: 26px;
-    height: 26px;
+    width: 21px;
+    height: 21px;
   }
 }
 
 #skills-tiles .react-icon {
-  width: 22px;
-  height: 22px;
-
-  @media (min-width: $lg) {
-    width: 24px;
-    height: 24px;
-  }
-}
-
-#skills-tiles .sass-icon {
-  width: 24px;
-  height: 24px;
-
-  @media (min-width: $lg) {
-    width: 26px;
-    height: 26px;
-  }
-}
-
-#skills-tiles .jquery-icon {
-  width: 20px;
-  height: 20px;
-
-  @media (min-width: $lg) {
-    width: 22px;
-    height: 22px;
-  }
-}
-
-#skills-tiles .vscode-icon {
-  width: 20px;
-  height: 20px;
-
-  @media (min-width: $lg) {
-    width: 22px;
-    height: 22px;
-  }
-}
-
-#skills-tiles .git-icon {
   width: 18px;
   height: 18px;
 
@@ -564,63 +525,105 @@ html {
   }
 }
 
-#skills-tiles .webpack-icon {
-  width: 22px;
-  height: 22px;
+#skills-tiles .sass-icon {
+  width: 21px;
+  height: 21px;
 
   @media (min-width: $lg) {
-    width: 24px;
-    height: 24px;
+    width: 23px;
+    height: 23px;
+  }
+}
+
+#skills-tiles .jquery-icon {
+  width: 17px;
+  height: 17px;
+
+  @media (min-width: $lg) {
+    width: 19px;
+    height: 19px;
+  }
+}
+
+#skills-tiles .vscode-icon {
+  width: 16px;
+  height: 16px;
+
+  @media (min-width: $lg) {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+#skills-tiles .git-icon {
+  width: 15px;
+  height: 15px;
+
+  @media (min-width: $lg) {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+#skills-tiles .webpack-icon {
+  width: 18px;
+  height: 18px;
+
+  @media (min-width: $lg) {
+    width: 20px;
+    height: 20px;
   }
 }
 
 #skills-tiles .gulp-icon {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
+  margin: 0 -3px;
 
   @media (min-width: $lg) {
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
   }
 }
 
 #skills-tiles .debian-icon {
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
 
   @media (min-width: $lg) {
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
   }
 }
 
 #skills-tiles .bash-icon {
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 13px;
+  margin-right: 2px;
 
   @media (min-width: $lg) {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
   }
 }
 
 #skills-tiles .inkscape-icon {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
 
   @media (min-width: $lg) {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
   }
 }
 
 #skills-tiles .figma-icon {
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 13px;
 
   @media (min-width: $lg) {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
   }
 }
 
