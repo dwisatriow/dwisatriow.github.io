@@ -436,13 +436,12 @@ html {
   margin-bottom: 48px;
 
   @media (min-width: $sm) {
-    max-width: 560px;
+    max-width: 540px;
     padding: 0;
     margin-bottom: 56px;
   }
   @media (min-width: $lg) {
-    font-size: 20px;
-    max-width: 580px;
+    max-width: 600px;
     margin-bottom: 64px;
   }
 }
@@ -462,8 +461,7 @@ html {
 
   @media (min-width: $lg) {
     height: 32px;
-    padding: 0 8px;
-    margin: 6px;
+    margin: 4px;
   }
 }
 
@@ -473,12 +471,12 @@ html {
   font-family: Dosis, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
 
   color: $main-text;
 
   @media (min-width: $lg) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 

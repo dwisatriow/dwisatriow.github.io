@@ -348,13 +348,12 @@ html {
   margin-bottom: 48px; }
   @media (min-width: 575px) {
     #skills-tiles {
-      max-width: 560px;
+      max-width: 540px;
       padding: 0;
       margin-bottom: 56px; } }
   @media (min-width: 992px) {
     #skills-tiles {
-      font-size: 20px;
-      max-width: 580px;
+      max-width: 600px;
       margin-bottom: 64px; } }
 
 .skill-tile {
@@ -372,19 +371,18 @@ html {
   @media (min-width: 992px) {
     .skill-tile {
       height: 32px;
-      padding: 0 8px;
-      margin: 6px; } }
+      margin: 4px; } }
 
 .skill-tile p {
   margin: 0 4px;
   font-family: Dosis, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   color: #2c4353; }
   @media (min-width: 992px) {
     .skill-tile p {
-      font-size: 20px; } }
+      font-size: 18px; } }
 
 .skill-tile .iconify {
   color: #2c4353; }
