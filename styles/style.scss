@@ -545,6 +545,16 @@ html {
   }
 }
 
+#skills-tiles .bootstrap-icon {
+  width: 16px;
+  height: 16px;
+
+  @media (min-width: $lg) {
+    width: 18px;
+    height: 18px;
+  }
+}
+
 #skills-tiles .vscode-icon {
   width: 16px;
   height: 16px;
