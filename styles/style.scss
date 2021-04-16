@@ -555,6 +555,16 @@ html {
   }
 }
 
+#skills-tiles .tailwind-icon {
+  width: 16px;
+  height: 14px;
+
+  @media (min-width: $lg) {
+    width: 18px;
+    height: 16px;
+  }
+}
+
 #skills-tiles .vscode-icon {
   width: 16px;
   height: 16px;
@@ -1116,6 +1126,20 @@ html {
   @media (min-width: $lg) {
     width: 28px;
     height: 28px;
+  }
+}
+
+.tech-icon .tailwind-icon {
+  width: 22px;
+  height: 20px;
+
+  @media (min-width: $md) {
+    width: 24px;
+    height: 22px;
+  }
+  @media (min-width: $lg) {
+    width: 26px;
+    height: 24px;
   }
 }
 

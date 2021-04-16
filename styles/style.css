@@ -444,6 +444,14 @@ html {
       width: 18px;
       height: 18px; } }
 
+#skills-tiles .tailwind-icon {
+  width: 16px;
+  height: 14px; }
+  @media (min-width: 992px) {
+    #skills-tiles .tailwind-icon {
+      width: 18px;
+      height: 16px; } }
+
 #skills-tiles .vscode-icon {
   width: 16px;
   height: 16px; }
@@ -918,6 +926,18 @@ html {
     .tech-icon .react-icon {
       width: 28px;
       height: 28px; } }
+
+.tech-icon .tailwind-icon {
+  width: 22px;
+  height: 20px; }
+  @media (min-width: 768px) {
+    .tech-icon .tailwind-icon {
+      width: 24px;
+      height: 22px; } }
+  @media (min-width: 992px) {
+    .tech-icon .tailwind-icon {
+      width: 26px;
+      height: 24px; } }
 
 .preview-and-tech-container + p {
   margin-top: 8px; }
