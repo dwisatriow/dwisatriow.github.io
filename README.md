@@ -8,7 +8,7 @@ https://dwisatriow.tech/
 - [Browsersync](https://browsersync.io/)
 
 ## Get Started
-- `gulp watch` - run the app in the development mode
+- `npm run dev` - run the app in the development mode
 
 If you have any suggestions, feedback or comments, feel free to open a new issue in this repository.\
 Thanks for visiting!
