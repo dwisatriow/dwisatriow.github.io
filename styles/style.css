@@ -476,12 +476,12 @@ html {
       width: 20px;
       height: 20px; } }
 
-#skills-tiles .gulp-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 -3px; }
+#skills-tiles .parcel-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0; }
   @media (min-width: 992px) {
-    #skills-tiles .gulp-icon {
+    #skills-tiles .parcel-icon {
       width: 22px;
       height: 22px; } }
 
