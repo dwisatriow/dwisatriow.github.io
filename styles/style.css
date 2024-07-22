@@ -484,23 +484,39 @@ html {
 #skills-tiles .html-icon {
   width: 15px;
   height: 15px;
+  margin-top: 1px;
 }
 @media (min-width: 992px) {
   #skills-tiles .html-icon {
     width: 17px;
     height: 17px;
+    margin-top: 1px;
   }
 }
 
 #skills-tiles .css-icon {
   width: 20px;
   height: 20px;
-  margin: 0 -2px;
+  margin: 1px -2px 0 -2px;
 }
 @media (min-width: 992px) {
   #skills-tiles .css-icon {
     width: 22px;
     height: 22px;
+    margin-top: 1px;
+    margin-right: -2px;
+  }
+}
+
+#skills-tiles .tailwind-icon {
+  width: 16px;
+  height: 14px;
+}
+@media (min-width: 992px) {
+  #skills-tiles .tailwind-icon {
+    width: 18px;
+    height: 16px;
+    /* margin-right: -2px; */
   }
 }
 
@@ -515,58 +531,96 @@ html {
   }
 }
 
+#skills-tiles .ts-icon {
+  width: 19px;
+  height: 19px;
+}
+@media (min-width: 992px) {
+  #skills-tiles .js-icon {
+    width: 21px;
+    height: 21px;
+  }
+}
+
 #skills-tiles .react-icon {
-  width: 18px;
-  height: 18px;
-}
-@media (min-width: 992px) {
-  #skills-tiles .react-icon {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-#skills-tiles .sass-icon {
-  width: 21px;
-  height: 21px;
-}
-@media (min-width: 992px) {
-  #skills-tiles .sass-icon {
-    width: 23px;
-    height: 23px;
-  }
-}
-
-#skills-tiles .jquery-icon {
-  width: 17px;
-  height: 17px;
-}
-@media (min-width: 992px) {
-  #skills-tiles .jquery-icon {
-    width: 19px;
-    height: 19px;
-  }
-}
-
-#skills-tiles .bootstrap-icon {
   width: 16px;
   height: 16px;
 }
 @media (min-width: 992px) {
-  #skills-tiles .bootstrap-icon {
+  #skills-tiles .react-icon {
     width: 18px;
     height: 18px;
   }
 }
 
-#skills-tiles .tailwind-icon {
+#skills-tiles .next-icon {
   width: 16px;
-  height: 14px;
+  height: 16px;
 }
 @media (min-width: 992px) {
-  #skills-tiles .tailwind-icon {
-    width: 18px;
+  #skills-tiles .next-icon {
+    width: 16px;
     height: 16px;
+  }
+}
+
+#skills-tiles .redux-icon {
+  width: 15px;
+  height: 15px;
+}
+@media (min-width: 992px) {
+  #skills-tiles .redux-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+#skills-tiles .vue-icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 1px;
+}
+@media (min-width: 992px) {
+  #skills-tiles .vue-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+#skills-tiles .node-icon {
+  width: 17px;
+  height: 17px;
+}
+@media (min-width: 992px) {
+  #skills-tiles .node-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+#skills-tiles .sql-icon {
+  width: 17px;
+  height: 17px;
+}
+@media (min-width: 992px) {
+  #skills-tiles .sql-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+#skills-tiles .nosql-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: -2px;
+  margin-left: -2px;
+}
+@media (min-width: 992px) {
+  #skills-tiles .nosql-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: -2px;
+    margin-left: -2px;
   }
 }
 
@@ -592,60 +646,16 @@ html {
   }
 }
 
-#skills-tiles .webpack-icon {
-  width: 18px;
-  height: 18px;
-}
-@media (min-width: 992px) {
-  #skills-tiles .webpack-icon {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-#skills-tiles .parcel-icon {
-  width: 24px;
-  height: 24px;
-  margin: 0;
-}
-@media (min-width: 992px) {
-  #skills-tiles .parcel-icon {
-    width: 22px;
-    height: 22px;
-  }
-}
-
-#skills-tiles .debian-icon {
+#skills-tiles .linux-icon {
   width: 15px;
   height: 15px;
+  margin-top: 1px;
 }
 @media (min-width: 992px) {
-  #skills-tiles .debian-icon {
+  #skills-tiles .linux-icon {
     width: 17px;
     height: 17px;
-  }
-}
-
-#skills-tiles .bash-icon {
-  width: 13px;
-  height: 13px;
-  margin-right: 2px;
-}
-@media (min-width: 992px) {
-  #skills-tiles .bash-icon {
-    width: 15px;
-    height: 15px;
-  }
-}
-
-#skills-tiles .inkscape-icon {
-  width: 14px;
-  height: 14px;
-}
-@media (min-width: 992px) {
-  #skills-tiles .inkscape-icon {
-    width: 16px;
-    height: 16px;
+    margin-top: 1px;
   }
 }
 
@@ -657,6 +667,19 @@ html {
   #skills-tiles .figma-icon {
     width: 15px;
     height: 15px;
+  }
+}
+
+#skills-tiles .inkscape-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 1px;
+}
+@media (min-width: 992px) {
+  #skills-tiles .inkscape-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 1px;
   }
 }
 
