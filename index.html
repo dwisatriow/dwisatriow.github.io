@@ -1,837 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-6NTQKC21ES"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-6NTQKC21ES");
-    </script>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NTQKC21ES"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dwi Satrio W. - Front-end Developer</title>
+    gtag("config", "G-6NTQKC21ES");
+  </script>
 
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="icon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="icon/site.webmanifest" />
-    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dwi Satrio W. - Front-end Developer</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png" />
+  <link rel="manifest" href="icon/site.webmanifest" />
+  <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <!-- Iconify -->
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@300;400;500&display=swap"
+    rel="stylesheet" />
 
-    <!-- Stylesheet -->
-    <link href="./styles/style.css" type="text/css" rel="stylesheet" />
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
-    <!-- Script -->
-    <script src="./js/main.js"></script>
-  </head>
-  <body>
-    <div id="header-container">
-      <header id="header">
-        <h1><a id="home-link" href="#welcome-section">DWISATRIOW</a></h1>
-        <button id="close-button" class="hidden">
-          <span
-            id="close-icon"
-            class="iconify"
-            data-inline="false"
-            data-icon="clarity:window-close-line"
-          ></span>
-        </button>
-        <button id="menu-button">
-          <span
-            id="menu-icon"
-            class="iconify"
-            data-inline="false"
-            data-icon="majesticons:menu-alt-line"
-          ></span>
-        </button>
-        <nav id="navbar" class="navbarClosed">
-          <ul>
-            <li><a class="nav-link" href="#about">About</a></li>
-            <li><a class="nav-link" href="#projects">Portfolio</a></li>
-            <li><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+  <!-- Stylesheet -->
+  <link href="./styles/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Script -->
+  <script src="./js/main.js"></script>
+</head>
+
+<body>
+  <div id="header-container">
+    <header id="header">
+      <h1><a id="home-link" href="#welcome-section">DWISATRIOW</a></h1>
+      <button id="close-button" class="hidden">
+        <span id="close-icon" class="iconify" data-inline="false" data-icon="clarity:window-close-line"></span>
+      </button>
+      <button id="menu-button">
+        <span id="menu-icon" class="iconify" data-inline="false" data-icon="majesticons:menu-alt-line"></span>
+      </button>
+      <nav id="navbar" class="navbarClosed">
+        <ul>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#projects">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <main>
+    <div id="welcome-section">
+      <img src="./images/rios_avatar_icon.svg" />
+      <div id="introduction">
+        <h1>Hi, I'm Rio<span>_</span></h1>
+        <h2>A Front-end Developer</h2>
+      </div>
     </div>
 
-    <main>
-      <div id="welcome-section">
-        <img src="./images/rios_avatar_icon.svg" />
-        <div id="introduction">
-          <h1>Hi, I'm Rio<span>_</span></h1>
-          <h2>A Front-end Developer</h2>
+    <div id="about">
+      <div id="about-me">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Rio, a frontend developer residing in Depok, Indonesia. I have 3 years of experience in web
+          development and I specialize in frontend development using React.js and Next.js. My interests span from web
+          development to
+          UI/UX design. In my spare time, I enjoy reading books and working on coding projects to enhance my skills.
+        </p><br />
+        <p>My interest in programming began during my college years as an Electrical Engineering student. I started
+          learning web development in 2019 and have since worked on several professional projects.</p>
+      </div>
+      <div id="skills">
+        <h2>Skills</h2>
+        <div id="skills-tiles">
+          <div class="skill-tile">
+            <span class="iconify html-icon" data-inline="false" data-icon="icomoon-free:html-five"></span>
+            <p>HTML</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify css-icon" data-inline="false" data-icon="bx:bxl-css3"></span>
+            <p>CSS</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify tailwind-icon" data-inline="false" data-icon="simple-icons:tailwindcss"></span>
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify js-icon" data-inline="false" data-icon="bx:bxl-javascript"></span>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify ts-icon" data-inline="false" data-icon="bxl-typescript"></span>
+            <p>TypeScript</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify react-icon" data-inline="false" data-icon="akar-icons:react-fill"></span>
+            <p>React.js</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify next-icon" data-inline="false" data-icon="file-icons:nextjs"></span>
+            <p>Next.js</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify redux-icon" data-inline="false" data-icon="akar-icons:redux-fill"></span>
+            <p>Redux</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify vue-icon" data-inline="false" data-icon="akar-icons:vue-fill"></span>
+            <p>Vue.js</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify node-icon" data-inline="false" data-icon="mdi:nodejs"></span>
+            <p>Node.js</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify sql-icon" data-inline="false" data-icon="hugeicons:sql"></span>
+            <p>SQL</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify nosql-icon" data-inline="false" data-icon="bxl:mongodb"></span>
+            <p>NoSQL</p>
+          </div>
+
+          <div class="skill-tile">
+            <span class="iconify vscode-icon" data-inline="false" data-icon="mdi:microsoft-visual-studio-code"></span>
+            <p>VS Code</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify git-icon" data-inline="false" data-icon="cib:git"></span>
+            <p>Git</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify linux-icon" data-inline="false" data-icon="mdi:linux"></span>
+            <p>Linux OS</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify figma-icon" data-inline="false" data-icon="cib:figma"></span>
+            <p>Figma</p>
+          </div>
+          <div class="skill-tile">
+            <span class="iconify inkscape-icon" data-inline="false" data-icon="file-icons:inkscape"></span>
+            <p>Inkscape</p>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div id="about">
-        <div id="about-me">
-          <h2>About Me</h2>
+    <div id="projects">
+      <div id="projects-intro">
+        <h2>Portfolio</h2>
+        <p>Here are some of my projects I’ve worked on recently.</p>
+      </div>
+
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/pomodoro-timer.png" />
+        </div>
+
+        <div class="project-desc-container">
+          <h3 class="project-name">Pomodoro Timer</h3>
+          <p class="project-desc">
+            Break down your work with an easy to use pomodoro technique timer.
+            Built with React and Tailwind CSS.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/pomodoro-timer/" target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify tailwind-icon" data-inline="false" data-icon="simple-icons:tailwindcss"></span>
+              <span class="iconify react-icon" data-inline="false" data-icon="mdi:react"></span>
+            </div>
+          </div>
           <p>
-            My name is Dwi Satrio Wicaksono, I’m a self-taught front-end
-            developer from Depok, Indonesia. I design and code simple things,
-            and I really like doing it. Currently I’m still exploring the visual
-            side of web development with React.
+            <a class="source-code-link" href="https://github.com/dwisatriow/pomodoro-timer" target="_blank">&lt; source
+              code &gt;</a>
           </p>
         </div>
-        <div id="skills">
-          <h2>Skills</h2>
-          <div id="skills-tiles">
-            <div class="skill-tile">
-              <span
-                class="iconify html-icon"
-                data-inline="false"
-                data-icon="icomoon-free:html-five"
-              ></span>
-              <p>HTML</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify css-icon"
-                data-inline="false"
-                data-icon="bx:bxl-css3"
-              ></span>
-              <p>CSS</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify js-icon"
-                data-inline="false"
-                data-icon="bx:bxl-javascript"
-              ></span>
-              <p>JavaScript</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify react-icon"
-                data-inline="false"
-                data-icon="mdi:react"
-              ></span>
-              <p>React</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify sass-icon"
-                data-inline="false"
-                data-icon="cib:sass-alt"
-              ></span>
-              <p>Sass</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify jquery-icon"
-                data-inline="false"
-                data-icon="bx:bxl-jquery"
-              ></span>
-              <p>jQuery</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify bootstrap-icon"
-                data-inline="false"
-                data-icon="simple-icons:bootstrap"
-              ></span>
-              <p>Bootstrap</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify tailwind-icon"
-                data-inline="false"
-                data-icon="simple-icons:tailwindcss"
-              ></span>
-              <p>Tailwind CSS</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify vscode-icon"
-                data-inline="false"
-                data-icon="mdi:microsoft-visual-studio-code"
-              ></span>
-              <p>VS Code</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify git-icon"
-                data-inline="false"
-                data-icon="cib:git"
-              ></span>
-              <p>Git</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify webpack-icon"
-                data-inline="false"
-                data-icon="mdi:webpack"
-              ></span>
-              <p>Webpack</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify parcel-icon"
-                data-inline="false"
-                data-icon="carbon:delivery-parcel"
-              ></span>
-              <p>Parcel</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify debian-icon"
-                data-inline="false"
-                data-icon="cib:debian"
-              ></span>
-              <p>Debian/Ubuntu Linux</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify inkscape-icon"
-                data-inline="false"
-                data-icon="file-icons:inkscape"
-              ></span>
-              <p>Inkscape</p>
-            </div>
-            <div class="skill-tile">
-              <span
-                class="iconify figma-icon"
-                data-inline="false"
-                data-icon="cib:figma"
-              ></span>
-              <p>Figma</p>
+      </div>
+
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/arabic-for-kids.png" />
+        </div>
+
+        <div class="project-desc-container">
+          <h3 class="project-name">Arabic for Kids</h3>
+          <p class="project-desc">
+            Learn arabic in fun and easy way for kids. Built with React and
+            Sass.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/arabic-for-kids/" target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify sass-icon" data-inline="false" data-icon="cib:sass-alt"></span>
+              <span class="iconify react-icon" data-inline="false" data-icon="mdi:react"></span>
             </div>
           </div>
+          <p>
+            <a class="source-code-link" href="https://github.com/dwisatriow/arabic-for-kids" target="_blank">&lt; source
+              code &gt;</a>
+          </p>
         </div>
       </div>
 
-      <div id="projects">
-        <div id="projects-intro">
-          <h2>Portfolio</h2>
-          <p>Here are some of my projects I’ve worked on recently.</p>
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/markdown-previewer.png" />
         </div>
 
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img src="./images/project-tile-img/pomodoro-timer.png" />
-          </div>
-
-          <div class="project-desc-container">
-            <h3 class="project-name">Pomodoro Timer</h3>
-            <p class="project-desc">
-              Break down your work with an easy to use pomodoro technique timer.
-              Built with React and Tailwind CSS.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/pomodoro-timer/"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify tailwind-icon"
-                  data-inline="false"
-                  data-icon="simple-icons:tailwindcss"
-                ></span>
-                <span
-                  class="iconify react-icon"
-                  data-inline="false"
-                  data-icon="mdi:react"
-                ></span>
-              </div>
+        <div class="project-desc-container">
+          <h3 class="project-name">Markdown Previewer</h3>
+          <p class="project-desc">
+            A previewer that will render your markdown text into a nicely
+            formatted writings. Built with React and Sass.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/markdown-previewer/" target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify sass-icon" data-inline="false" data-icon="cib:sass-alt"></span>
+              <span class="iconify react-icon" data-inline="false" data-icon="mdi:react"></span>
             </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/pomodoro-timer"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
           </div>
-        </div>
-
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img src="./images/project-tile-img/arabic-for-kids.png" />
-          </div>
-
-          <div class="project-desc-container">
-            <h3 class="project-name">Arabic for Kids</h3>
-            <p class="project-desc">
-              Learn arabic in fun and easy way for kids. Built with React and
-              Sass.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/arabic-for-kids/"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify sass-icon"
-                  data-inline="false"
-                  data-icon="cib:sass-alt"
-                ></span>
-                <span
-                  class="iconify react-icon"
-                  data-inline="false"
-                  data-icon="mdi:react"
-                ></span>
-              </div>
-            </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/arabic-for-kids"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img src="./images/project-tile-img/markdown-previewer.png" />
-          </div>
-
-          <div class="project-desc-container">
-            <h3 class="project-name">Markdown Previewer</h3>
-            <p class="project-desc">
-              A previewer that will render your markdown text into a nicely
-              formatted writings. Built with React and Sass.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/markdown-previewer/"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify sass-icon"
-                  data-inline="false"
-                  data-icon="cib:sass-alt"
-                ></span>
-                <span
-                  class="iconify react-icon"
-                  data-inline="false"
-                  data-icon="mdi:react"
-                ></span>
-              </div>
-            </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/markdown-previewer"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img src="./images/project-tile-img/javascript-calculator.png" />
-          </div>
-
-          <div class="project-desc-container">
-            <h3 class="project-name">Javascript Calculator</h3>
-            <p class="project-desc">
-              A calculator built with JavaScript to do your basic calculation.
-              Built with React and Sass.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/javascript-calculator/"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify sass-icon"
-                  data-inline="false"
-                  data-icon="cib:sass-alt"
-                ></span>
-                <span
-                  class="iconify react-icon"
-                  data-inline="false"
-                  data-icon="mdi:react"
-                ></span>
-              </div>
-            </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/javascript-calculator"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img src="./images/project-tile-img/quran-quotes-machine.png" />
-          </div>
-
-          <div class="project-desc-container survey-form">
-            <h3 class="project-name">Quran Quotes Machine</h3>
-            <p class="project-desc">
-              A quotes viewer that will pick some verses from the Quran. Built
-              with HTML, Sass, and jQuery.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/quran-quotes-machine"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify html-icon"
-                  data-inline="false"
-                  data-icon="icomoon-free:html-five"
-                ></span>
-                <span
-                  class="iconify sass-icon"
-                  data-inline="false"
-                  data-icon="cib:sass-alt"
-                ></span>
-                <span
-                  class="iconify jquery-icon"
-                  data-inline="false"
-                  data-icon="bx:bxl-jquery"
-                ></span>
-              </div>
-            </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/quran-quotes-machine"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img
-              src="./images/project-tile-img/technical-documentation-page.png"
-            />
-          </div>
-
-          <div class="project-desc-container">
-            <h3 class="project-name">Technical Docs Page</h3>
-            <p class="project-desc">
-              A technical documentation page for mock React documentation. Built
-              with HTML, Sass, and JavaScript.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/technical-documentation-page"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify html-icon"
-                  data-inline="false"
-                  data-icon="icomoon-free:html-five"
-                ></span>
-                <span
-                  class="iconify sass-icon"
-                  data-inline="false"
-                  data-icon="cib:sass-alt"
-                ></span>
-                <span
-                  class="iconify js-icon"
-                  data-inline="false"
-                  data-icon="bx:bxl-javascript"
-                ></span>
-              </div>
-            </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/technical-documentation-page"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img src="./images/project-tile-img/product-landing-page.png" />
-          </div>
-
-          <div class="project-desc-container">
-            <h3 class="project-name">Product Landing Page</h3>
-            <p class="project-desc">
-              A product landing page for mock Notable tablet. Built with HTML,
-              Sass, and JavaScript.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/product-landing-page"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify html-icon"
-                  data-inline="false"
-                  data-icon="icomoon-free:html-five"
-                ></span>
-                <span
-                  class="iconify sass-icon"
-                  data-inline="false"
-                  data-icon="cib:sass-alt"
-                ></span>
-                <span
-                  class="iconify js-icon"
-                  data-inline="false"
-                  data-icon="bx:bxl-javascript"
-                ></span>
-              </div>
-            </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/product-landing-page"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img src="./images/project-tile-img/survey-form.png" />
-          </div>
-
-          <div class="project-desc-container">
-            <h3 class="project-name">Survey Form</h3>
-            <p class="project-desc">
-              A survey form for receiving feedback of mock Kesan note app. Built
-              with HTML and CSS.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/survey-form"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify html-icon"
-                  data-inline="false"
-                  data-icon="icomoon-free:html-five"
-                ></span>
-                <span
-                  class="iconify css-icon"
-                  data-inline="false"
-                  data-icon="bx:bxl-css3"
-                ></span>
-              </div>
-            </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/survey-form"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <div class="project-tile img-tile">
-          <div class="project-img">
-            <img src="./images/project-tile-img/tribute-page.png" />
-          </div>
-
-          <div class="project-desc-container">
-            <h3 class="project-name">Tribute Page</h3>
-            <p class="project-desc">
-              A tribute page to Muhammad ibn Musa al-Khwarizmi, The Father of
-              Algebra. Built with HTML and CSS.
-            </p>
-            <div class="preview-and-tech-container">
-              <button class="preview-live-button">
-                <a
-                  class="preview-live-link"
-                  href="https://dwisatriow.github.io/tribute-page"
-                  target="_blank"
-                >
-                  View live
-                </a>
-                <span
-                  class="iconify button-arrow"
-                  data-inline="false"
-                  data-icon="bi:arrow-right-short"
-                ></span>
-              </button>
-              <div class="tech-icon">
-                <span
-                  class="iconify html-icon"
-                  data-inline="false"
-                  data-icon="icomoon-free:html-five"
-                ></span>
-                <span
-                  class="iconify css-icon"
-                  data-inline="false"
-                  data-icon="bx:bxl-css3"
-                ></span>
-              </div>
-            </div>
-            <p>
-              <a
-                class="source-code-link"
-                href="https://github.com/dwisatriow/tribute-page"
-                target="_blank"
-                >&lt; source code &gt;</a
-              >
-            </p>
-          </div>
+          <p>
+            <a class="source-code-link" href="https://github.com/dwisatriow/markdown-previewer" target="_blank">&lt;
+              source code &gt;</a>
+          </p>
         </div>
       </div>
 
-      <div id="contact">
-        <div id="contact-me">
-          <h2>Contact Me</h2>
-          <p>Have a question or want to work together?</p>
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/javascript-calculator.png" />
         </div>
 
-        <form
-          id="contact-form"
-          action="https://formspree.io/f/mknpdgjy"
-          method="POST"
-        >
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Name"
-            required
-          />
-
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="_replyto"
-            placeholder="Email"
-            required
-          />
-
-          <label for="message">Any comments or suggestions?</label>
-          <textarea
-            id="message"
-            name="message"
-            row="5"
-            col="100"
-            placeholder="Your message"
-            required
-          ></textarea>
-
-          <input type="submit" id="submit" value="Send" />
-        </form>
-
-        <p id="find-me">Find me on:</p>
-        <ul id="profile-links">
-          <li>
-            <a
-              id="profile-link"
-              href="https://codepen.io/dwisatriow"
-              target="_blank"
-            >
-              <span
-                id="codepen-icon"
-                class="iconify"
-                data-inline="false"
-                data-icon="ant-design:codepen-outlined"
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              id="profile-link"
-              href="https://web.facebook.com/dwisatrioow/"
-              target="_blank"
-            >
-              <span
-                id="facebook-icon"
-                class="iconify"
-                data-inline="false"
-                data-icon="akar-icons:facebook-fill"
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              id="profile-link"
-              href="https://www.linkedin.com/in/dwisatriow/"
-              target="_blank"
-            >
-              <span
-                id="linkedin-icon"
-                class="iconify"
-                data-inline="false"
-                data-icon="ant-design:linkedin-filled"
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              id="profile-link"
-              href="https://twitter.com/dwisatriow"
-              target="_blank"
-            >
-              <span
-                id="twitter-icon"
-                class="iconify"
-                data-inline="false"
-                data-icon="akar-icons:twitter-fill"
-              ></span>
-            </a>
-          </li>
-          <li>
-            <a
-              id="profile-link"
-              href="https://github.com/dwisatriow"
-              target="_blank"
-            >
-              <span
-                id="github-icon"
-                class="iconify"
-                data-inline="false"
-                data-icon="akar-icons:github-fill"
-              ></span>
-            </a>
-          </li>
-        </ul>
+        <div class="project-desc-container">
+          <h3 class="project-name">Javascript Calculator</h3>
+          <p class="project-desc">
+            A calculator built with JavaScript to do your basic calculation.
+            Built with React and Sass.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/javascript-calculator/" target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify sass-icon" data-inline="false" data-icon="cib:sass-alt"></span>
+              <span class="iconify react-icon" data-inline="false" data-icon="mdi:react"></span>
+            </div>
+          </div>
+          <p>
+            <a class="source-code-link" href="https://github.com/dwisatriow/javascript-calculator" target="_blank">&lt;
+              source code &gt;</a>
+          </p>
+        </div>
       </div>
-    </main>
 
-    <div id="footer-container">
-      <footer>
-        <h2>Thanks for visiting</h2>
-        <p>Dwi Satrio W. © 2021</p>
-      </footer>
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/quran-quotes-machine.png" />
+        </div>
+
+        <div class="project-desc-container survey-form">
+          <h3 class="project-name">Quran Quotes Machine</h3>
+          <p class="project-desc">
+            A quotes viewer that will pick some verses from the Quran. Built
+            with HTML, Sass, and jQuery.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/quran-quotes-machine" target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify html-icon" data-inline="false" data-icon="icomoon-free:html-five"></span>
+              <span class="iconify sass-icon" data-inline="false" data-icon="cib:sass-alt"></span>
+              <span class="iconify jquery-icon" data-inline="false" data-icon="bx:bxl-jquery"></span>
+            </div>
+          </div>
+          <p>
+            <a class="source-code-link" href="https://github.com/dwisatriow/quran-quotes-machine" target="_blank">&lt;
+              source code &gt;</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/technical-documentation-page.png" />
+        </div>
+
+        <div class="project-desc-container">
+          <h3 class="project-name">Technical Docs Page</h3>
+          <p class="project-desc">
+            A technical documentation page for mock React documentation. Built
+            with HTML, Sass, and JavaScript.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/technical-documentation-page"
+                target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify html-icon" data-inline="false" data-icon="icomoon-free:html-five"></span>
+              <span class="iconify sass-icon" data-inline="false" data-icon="cib:sass-alt"></span>
+              <span class="iconify js-icon" data-inline="false" data-icon="bx:bxl-javascript"></span>
+            </div>
+          </div>
+          <p>
+            <a class="source-code-link" href="https://github.com/dwisatriow/technical-documentation-page"
+              target="_blank">&lt; source code &gt;</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/product-landing-page.png" />
+        </div>
+
+        <div class="project-desc-container">
+          <h3 class="project-name">Product Landing Page</h3>
+          <p class="project-desc">
+            A product landing page for mock Notable tablet. Built with HTML,
+            Sass, and JavaScript.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/product-landing-page" target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify html-icon" data-inline="false" data-icon="icomoon-free:html-five"></span>
+              <span class="iconify sass-icon" data-inline="false" data-icon="cib:sass-alt"></span>
+              <span class="iconify js-icon" data-inline="false" data-icon="bx:bxl-javascript"></span>
+            </div>
+          </div>
+          <p>
+            <a class="source-code-link" href="https://github.com/dwisatriow/product-landing-page" target="_blank">&lt;
+              source code &gt;</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/survey-form.png" />
+        </div>
+
+        <div class="project-desc-container">
+          <h3 class="project-name">Survey Form</h3>
+          <p class="project-desc">
+            A survey form for receiving feedback of mock Kesan note app. Built
+            with HTML and CSS.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/survey-form" target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify html-icon" data-inline="false" data-icon="icomoon-free:html-five"></span>
+              <span class="iconify css-icon" data-inline="false" data-icon="bx:bxl-css3"></span>
+            </div>
+          </div>
+          <p>
+            <a class="source-code-link" href="https://github.com/dwisatriow/survey-form" target="_blank">&lt; source
+              code &gt;</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="project-tile img-tile">
+        <div class="project-img">
+          <img src="./images/project-tile-img/tribute-page.png" />
+        </div>
+
+        <div class="project-desc-container">
+          <h3 class="project-name">Tribute Page</h3>
+          <p class="project-desc">
+            A tribute page to Muhammad ibn Musa al-Khwarizmi, The Father of
+            Algebra. Built with HTML and CSS.
+          </p>
+          <div class="preview-and-tech-container">
+            <button class="preview-live-button">
+              <a class="preview-live-link" href="https://dwisatriow.github.io/tribute-page" target="_blank">
+                View live
+              </a>
+              <span class="iconify button-arrow" data-inline="false" data-icon="bi:arrow-right-short"></span>
+            </button>
+            <div class="tech-icon">
+              <span class="iconify html-icon" data-inline="false" data-icon="icomoon-free:html-five"></span>
+              <span class="iconify css-icon" data-inline="false" data-icon="bx:bxl-css3"></span>
+            </div>
+          </div>
+          <p>
+            <a class="source-code-link" href="https://github.com/dwisatriow/tribute-page" target="_blank">&lt; source
+              code &gt;</a>
+          </p>
+        </div>
+      </div>
     </div>
-  </body>
+
+    <div id="contact">
+      <div id="contact-me">
+        <h2>Contact Me</h2>
+        <p>Have a question or want to work together?</p>
+      </div>
+
+      <form id="contact-form" action="https://formspree.io/f/mknpdgjy" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" placeholder="Email" required />
+
+        <label for="message">Any comments or suggestions?</label>
+        <textarea id="message" name="message" row="5" col="100" placeholder="Your message" required></textarea>
+
+        <input type="submit" id="submit" value="Send" />
+      </form>
+
+      <p id="find-me">Find me on:</p>
+      <ul id="profile-links">
+        <li>
+          <a id="profile-link" href="https://codepen.io/dwisatriow" target="_blank">
+            <span id="codepen-icon" class="iconify" data-inline="false" data-icon="ant-design:codepen-outlined"></span>
+          </a>
+        </li>
+        <li>
+          <a id="profile-link" href="https://web.facebook.com/dwisatrioow/" target="_blank">
+            <span id="facebook-icon" class="iconify" data-inline="false" data-icon="akar-icons:facebook-fill"></span>
+          </a>
+        </li>
+        <li>
+          <a id="profile-link" href="https://www.linkedin.com/in/dwisatriow/" target="_blank">
+            <span id="linkedin-icon" class="iconify" data-inline="false" data-icon="ant-design:linkedin-filled"></span>
+          </a>
+        </li>
+        <li>
+          <a id="profile-link" href="https://twitter.com/dwisatriow" target="_blank">
+            <span id="twitter-icon" class="iconify" data-inline="false" data-icon="akar-icons:twitter-fill"></span>
+          </a>
+        </li>
+        <li>
+          <a id="profile-link" href="https://github.com/dwisatriow" target="_blank">
+            <span id="github-icon" class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <div id="footer-container">
+    <footer>
+      <h2>Thanks for visiting</h2>
+      <p>Dwi Satrio W. © 2024</p>
+    </footer>
+  </div>
+</body>
+
 </html>
