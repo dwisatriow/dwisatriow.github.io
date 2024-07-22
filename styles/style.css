@@ -59,7 +59,7 @@ html {
 }
 
 #home-link {
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -209,7 +209,7 @@ html {
 }
 
 .nav-link {
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -295,7 +295,7 @@ html {
 #introduction h1 {
   position: relative;
   top: -20px;
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -320,7 +320,7 @@ html {
 #introduction h2 {
   position: relative;
   top: -20px;
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -353,7 +353,7 @@ html {
 
 #about-me h2 {
   margin-top: 48px;
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
@@ -399,7 +399,7 @@ html {
 
 #skills h2 {
   margin-top: 32px;
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
@@ -710,7 +710,7 @@ html {
 }
 
 #projects-intro h2 {
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
@@ -995,7 +995,7 @@ html {
 
 .project-name {
   margin-top: 16px;
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -1265,7 +1265,7 @@ html {
 }
 
 #contact-me h2 {
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -1483,7 +1483,7 @@ input[type='submit'] {
 }
 
 #contact #find-me {
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -1636,7 +1636,7 @@ footer {
 }
 
 footer h2 {
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1655,7 +1655,7 @@ footer h2 {
 }
 
 footer p {
-  font-family: 'Amatic SC', serif;
+  font-family: 'Amatic SC', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
