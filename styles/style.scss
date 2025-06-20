@@ -1,3 +1,5 @@
+// This file is not being use yet though
+
 $sm: 576px;
 $md: 768px;
 $lg: 992px;
@@ -70,7 +72,7 @@ html {
 }
 
 #home-link {
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -176,7 +178,7 @@ html {
 }
 
 .navbarClosed::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 50px;
@@ -190,7 +192,7 @@ html {
 }
 
 .navbarOpened::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 50px;
@@ -224,7 +226,7 @@ html {
 }
 
 .nav-link {
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -240,7 +242,7 @@ html {
   }
 }
 
-#welcome-section {
+#hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -267,7 +269,7 @@ html {
   // }
 }
 
-#welcome-section img {
+#hero-section img {
   width: 140px;
   height: 140px;
   transform: rotate(-3deg);
@@ -303,7 +305,7 @@ html {
   position: relative;
   top: -20px;
 
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -327,7 +329,7 @@ html {
   position: relative;
   top: -20px;
 
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -362,7 +364,7 @@ html {
 #about-me h2 {
   margin-top: 48px;
 
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
@@ -406,7 +408,7 @@ html {
 #skills h2 {
   margin-top: 32px;
 
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
@@ -673,7 +675,7 @@ html {
 }
 
 #projects-intro h2 {
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
@@ -792,7 +794,7 @@ html {
 }
 
 .project-tile:nth-child(even) .project-img::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 300px;
@@ -856,7 +858,7 @@ html {
 }
 
 .project-tile:nth-child(odd) .project-img::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 300px;
@@ -922,7 +924,7 @@ html {
 .project-name {
   margin-top: 16px;
 
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -1001,7 +1003,7 @@ html {
 }
 
 .preview-live-link::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 140px;
@@ -1170,7 +1172,7 @@ html {
 }
 
 #contact-me h2 {
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -1223,8 +1225,8 @@ html {
   display: none;
 }
 
-#contact-form input[type="text"],
-#contact-form input[type="email"] {
+#contact-form input[type='text'],
+#contact-form input[type='email'] {
   width: 280px;
   height: 28px;
   margin-top: 6px;
@@ -1310,7 +1312,7 @@ html {
   }
 }
 
-input[type="submit"] {
+input[type='submit'] {
   width: 120px;
   height: 28px;
   margin-top: 14px;
@@ -1342,7 +1344,7 @@ input[type="submit"] {
 }
 
 #contact #find-me {
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -1467,7 +1469,7 @@ footer {
 }
 
 footer h2 {
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1484,7 +1486,7 @@ footer h2 {
 }
 
 footer p {
-  font-family: "Amatic SC", serif;
+  font-family: 'Amatic SC', serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
